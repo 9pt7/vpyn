@@ -12,6 +12,19 @@ files = [
 ]
 
 [[package]]
+name = "example"
+version = "0.1.0"
+description = ""
+optional = false
+python-versions = "^3.11"
+files = []
+develop = false
+
+[package.source]
+type = "directory"
+url = "example"
+
+[[package]]
 name = "iniconfig"
 version = "2.0.0"
 description = "brain-dead simple config-ini parsing"
@@ -68,10 +81,7 @@ pluggy = ">=0.12,<2.0"
 [package.extras]
 testing = ["argcomplete", "attrs (>=19.2.0)", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
 
-[extras]
-dev = []
-
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "671212703f2d08f00518e08ed9b865d19919b08e189bc20ba40f51d788513357"
+content-hash = "db91b60eb1a8d0077a14fc86d34932f226ccbfe97b04050823b933a80d1f1ddc"
